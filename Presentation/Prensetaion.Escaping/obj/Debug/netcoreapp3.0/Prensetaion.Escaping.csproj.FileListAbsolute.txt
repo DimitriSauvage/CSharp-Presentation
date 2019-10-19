@@ -1,0 +1,10 @@
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\bin\Debug\netcoreapp3.0\Prensetaion.Escaping.exe
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\bin\Debug\netcoreapp3.0\Prensetaion.Escaping.deps.json
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\bin\Debug\netcoreapp3.0\Prensetaion.Escaping.runtimeconfig.json
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\bin\Debug\netcoreapp3.0\Prensetaion.Escaping.runtimeconfig.dev.json
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\bin\Debug\netcoreapp3.0\Prensetaion.Escaping.dll
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\bin\Debug\netcoreapp3.0\Prensetaion.Escaping.pdb
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\obj\Debug\netcoreapp3.0\Prensetaion.Escaping.AssemblyInfoInputs.cache
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\obj\Debug\netcoreapp3.0\Prensetaion.Escaping.AssemblyInfo.cs
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\obj\Debug\netcoreapp3.0\Prensetaion.Escaping.dll
+C:\Users\dimit\source\repos\Presentation\Prensetaion.Escaping\obj\Debug\netcoreapp3.0\Prensetaion.Escaping.pdb

@@ -1,0 +1,11 @@
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\bin\Debug\netcoreapp3.0\Presentation.LINQ.exe
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\bin\Debug\netcoreapp3.0\Presentation.LINQ.deps.json
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\bin\Debug\netcoreapp3.0\Presentation.LINQ.runtimeconfig.json
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\bin\Debug\netcoreapp3.0\Presentation.LINQ.runtimeconfig.dev.json
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\bin\Debug\netcoreapp3.0\Presentation.LINQ.dll
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\bin\Debug\netcoreapp3.0\Presentation.LINQ.pdb
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\obj\Debug\netcoreapp3.0\Presentation.LINQ.csprojAssemblyReference.cache
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\obj\Debug\netcoreapp3.0\Presentation.LINQ.AssemblyInfoInputs.cache
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\obj\Debug\netcoreapp3.0\Presentation.LINQ.AssemblyInfo.cs
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\obj\Debug\netcoreapp3.0\Presentation.LINQ.dll
+C:\Users\dimit\source\repos\Presentation\Presentation.LINQ\obj\Debug\netcoreapp3.0\Presentation.LINQ.pdb

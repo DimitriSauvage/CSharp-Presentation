@@ -1,0 +1,11 @@
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\bin\Debug\netcoreapp3.0\Presentation.Interpolation.exe
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\bin\Debug\netcoreapp3.0\Presentation.Interpolation.deps.json
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\bin\Debug\netcoreapp3.0\Presentation.Interpolation.runtimeconfig.json
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\bin\Debug\netcoreapp3.0\Presentation.Interpolation.runtimeconfig.dev.json
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\bin\Debug\netcoreapp3.0\Presentation.Interpolation.dll
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\bin\Debug\netcoreapp3.0\Presentation.Interpolation.pdb
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\obj\Debug\netcoreapp3.0\Presentation.Interpolation.csprojAssemblyReference.cache
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\obj\Debug\netcoreapp3.0\Presentation.Interpolation.AssemblyInfoInputs.cache
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\obj\Debug\netcoreapp3.0\Presentation.Interpolation.AssemblyInfo.cs
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\obj\Debug\netcoreapp3.0\Presentation.Interpolation.dll
+C:\Users\dimit\source\repos\Presentation\Presentation.Interpolation\obj\Debug\netcoreapp3.0\Presentation.Interpolation.pdb

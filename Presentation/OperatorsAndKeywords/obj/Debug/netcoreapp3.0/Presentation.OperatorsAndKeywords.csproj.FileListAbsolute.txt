@@ -1,0 +1,10 @@
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\obj\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.AssemblyInfoInputs.cache
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\obj\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.AssemblyInfo.cs
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\bin\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.exe
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\bin\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.deps.json
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\bin\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.runtimeconfig.json
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\bin\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.runtimeconfig.dev.json
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\bin\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.dll
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\bin\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.pdb
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\obj\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.dll
+C:\Users\dimit\source\repos\Presentation\OperatorsAndKeywords\obj\Debug\netcoreapp3.0\Presentation.OperatorsAndKeywords.pdb

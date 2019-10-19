@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Presentation.Interpolation/1.0.0": {
+        "runtime": {
+          "Presentation.Interpolation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Presentation.Interpolation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
