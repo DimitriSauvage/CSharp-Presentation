@@ -1,0 +1,11 @@
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\bin\Debug\netstandard2.0\Presentation.DependancyInjection.Implementations.deps.json
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\bin\Debug\netstandard2.0\Presentation.DependancyInjection.Implementations.dll
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\bin\Debug\netstandard2.0\Presentation.DependancyInjection.Implementations.pdb
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\bin\Debug\netstandard2.0\Presentation.DependancyInjection.Abstractions.dll
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\bin\Debug\netstandard2.0\Presentation.DependancyInjection.Abstractions.pdb
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\obj\Debug\netstandard2.0\Presentation.DependancyInjection.Implementations.csprojAssemblyReference.cache
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\obj\Debug\netstandard2.0\Presentation.DependancyInjection.Implementations.AssemblyInfoInputs.cache
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\obj\Debug\netstandard2.0\Presentation.DependancyInjection.Implementations.AssemblyInfo.cs
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\obj\Debug\netstandard2.0\Presentation.DependancyInjection.Implementations.csproj.CopyComplete
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\obj\Debug\netstandard2.0\Presentation.DependancyInjection.Implementations.dll
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Presentation.DependancyInjection.Implementations\obj\Debug\netstandard2.0\Presentation.DependancyInjection.Implementations.pdb

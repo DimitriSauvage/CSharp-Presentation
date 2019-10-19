@@ -4,8 +4,10 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
-
   <ItemGroup>
+    <ProjectReference Include="..\Prensentation.DependancyInjection.Presentation\Presentation.DependancyInjection.Presentation.csproj" />
+    <ProjectReference Include="..\Presentation.DependancyInjection.Abstractions\Presentation.DependancyInjection.Abstractions.csproj" />
+    <ProjectReference Include="..\Presentation.DependancyInjection.Implementations\Presentation.DependancyInjection.Implementations.csproj" />
   </ItemGroup>
 
 </Project>

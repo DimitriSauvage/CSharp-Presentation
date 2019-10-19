@@ -1,0 +1,4 @@
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Prensentation.DependancyInjection.Presentation\bin\Debug\netstandard2.0\Prensentation.DependancyInjection.Presentation.deps.json
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Prensentation.DependancyInjection.Presentation\bin\Debug\netstandard2.0\Prensentation.DependancyInjection.Presentation.dll
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Prensentation.DependancyInjection.Presentation\obj\Debug\netstandard2.0\Prensentation.DependancyInjection.Presentation.AssemblyInfoInputs.cache
+C:\Users\dimit\OneDrive\CSharp-Presentation\Presentation\Prensentation.DependancyInjection.Presentation\obj\Debug\netstandard2.0\Prensentation.DependancyInjection.Presentation.AssemblyInfo.cs
