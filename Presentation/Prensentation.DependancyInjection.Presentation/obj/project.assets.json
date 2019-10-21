@@ -1057,14 +1057,14 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Presentation.DependancyInjection.Abstractions/1.0.0": {
+      "Presentation.DependancyInjection.Application.Abstractions/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Presentation.DependancyInjection.Abstractions.dll": {}
+          "bin/placeholder/Presentation.DependancyInjection.Application.Abstractions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Presentation.DependancyInjection.Abstractions.dll": {}
+          "bin/placeholder/Presentation.DependancyInjection.Application.Abstractions.dll": {}
         }
       }
     }
@@ -4076,17 +4076,17 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Presentation.DependancyInjection.Abstractions/1.0.0": {
+    "Presentation.DependancyInjection.Application.Abstractions/1.0.0": {
       "type": "project",
-      "path": "../Presentation.DependancyInjection.Abstractions/Presentation.DependancyInjection.Abstractions.csproj",
-      "msbuildProject": "../Presentation.DependancyInjection.Abstractions/Presentation.DependancyInjection.Abstractions.csproj"
+      "path": "../Presentation.DependancyInjection.Abstractions/Presentation.DependancyInjection.Application.Abstractions.csproj",
+      "msbuildProject": "../Presentation.DependancyInjection.Abstractions/Presentation.DependancyInjection.Application.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "NETStandard.Library >= 2.0.3",
-      "Presentation.DependancyInjection.Abstractions >= 1.0.0"
+      "Presentation.DependancyInjection.Application.Abstractions >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4120,8 +4120,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj": {
-              "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj"
+            "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj"
             }
           }
         }

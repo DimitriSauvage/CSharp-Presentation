@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Prensentation.DependancyInjection;
+using Presentation.DependancyInjection.Application.Abstractions;
 using System;
 
 namespace Presentation.DependancyInjection.Presentation
@@ -27,11 +27,11 @@ namespace Presentation.DependancyInjection.Presentation
         /// Just for the test
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
-        public IActionResult GetPerson()
+        [HttpGet("{id}")]
+        public IActionResult GetPerson([FromRoute] int id)
         {
             
-            return Ok(this.PersonService.AddPerson());
+            return Ok(this.PersonService.GetPerson(id));
         }
         #endregion
     }

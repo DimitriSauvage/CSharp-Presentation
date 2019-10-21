@@ -11,7 +11,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "NETStandard.Library": "2.0.3",
-          "Presentation.DependancyInjection.Abstractions": "1.0.0"
+          "Presentation.DependancyInjection.Application.Abstractions": "1.0.0"
         },
         "runtime": {
           "Presentation.DependancyInjection.Presentation.dll": {}
@@ -904,9 +904,9 @@
           }
         }
       },
-      "Presentation.DependancyInjection.Abstractions/1.0.0": {
+      "Presentation.DependancyInjection.Application.Abstractions/1.0.0": {
         "runtime": {
-          "Presentation.DependancyInjection.Abstractions.dll": {}
+          "Presentation.DependancyInjection.Application.Abstractions.dll": {}
         }
       }
     }
@@ -1442,7 +1442,7 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
-    "Presentation.DependancyInjection.Abstractions/1.0.0": {
+    "Presentation.DependancyInjection.Application.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

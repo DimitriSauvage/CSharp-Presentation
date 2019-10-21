@@ -1,4 +1,8 @@
-﻿using Prensentation.DependancyInjection;
+﻿using AutoMapper;
+using Presentation.DependancyInjection.Application.Abstractions;
+using Presentation.DependancyInjection.Application.Abstractions.DTO;
+using Presentation.DependancyInjection.Model;
+using Presentation.DependancyInjection.Repository.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,21 +12,26 @@ namespace Presentation.DependancyInjection.Implementations
     public class PersonService : IPersonService
     {
         #region Fields
-        /// <summary>
+        /*/// <summary>
         /// Persons manager
         /// </summary>
-        private readonly IPersonRepository personRepository;
+        private readonly IPersonRepository personRepository;*/
         /// <summary>
         /// Other declaration possiblity
         /// </summary>
         public IPersonRepository PersonRepository { get; }
+        /// <summary>
+        /// Mapper of the application
+        /// </summary>
+        public IMapper Mapper { get; }
         #endregion
 
         #region Constructor
-        public PersonService(IPersonRepository personRepository)
+        public PersonService(IPersonRepository personRepository, IMapper mapper)
         {
-            this.personRepository = personRepository;
+            /*this.personRepository = personRepository;*/
             this.PersonRepository = personRepository;
+            this.Mapper = mapper;
         }
 
 
@@ -30,12 +39,13 @@ namespace Presentation.DependancyInjection.Implementations
 
         #region Methods
         /// <summary>
-        /// Add a new person
+        /// Get a new person
         /// </summary>
         /// <returns>If the person has been added</returns>
-        public bool AddPerson()
+        public PersonDTO GetPerson(int id)
         {
-            return this.PersonRepository.AddPerson();
+            Person person = this.PersonRepository.GetPerson(id);
+            return this.Mapper.Map<PersonDTO>(person);
         }
         #endregion
 

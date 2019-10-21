@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Presentation.DependancyInjection.Abstractions\Presentation.DependancyInjection.Abstractions.csproj" />
+    <ProjectReference Include="..\Presentation.DependancyInjection.Abstractions\Presentation.DependancyInjection.Application.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

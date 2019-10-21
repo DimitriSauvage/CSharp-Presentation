@@ -186,9 +186,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj",
-      "projectName": "Presentation.DependancyInjection.Abstractions",
-      "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj",
+      "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj",
+      "projectName": "Presentation.DependancyInjection.Application.Abstractions",
+      "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj",
       "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\obj\\",
       "projectStyle": "PackageReference",

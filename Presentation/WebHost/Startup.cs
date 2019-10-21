@@ -2,14 +2,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Prensentation.DependancyInjection;
+using Presentation.DependancyInjection.Application.Abstractions;
+using Presentation.DependancyInjection.Application.Abstractions.DTO;
 using Presentation.DependancyInjection.Implementations;
+using Presentation.DependancyInjection.Model;
+using Presentation.DependancyInjection.Repository.Abstractions;
+using Presentation.DependancyInjection.Repository.Implementations.Db;
 
 namespace WebHost
 {
@@ -28,9 +33,12 @@ namespace WebHost
             services.AddControllers();
             services.AddControllersWithViews();
 
+            var config = new MapperConfiguration(x => x.CreateMap<PersonDTO, Person>().ReverseMap());
+            services.AddAutoMapper(typeof(MapperProfile));
+
             #region Add the service for the dependancy injection
             services.AddScoped<IPersonService, PersonService>();
-            services.AddScoped<IPersonRepository, PersonRepository>();
+            services.AddScoped<IPersonRepository, PersonDbRepository>();
             #endregion
         }
 
@@ -49,18 +57,11 @@ namespace WebHost
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers(); 
+                endpoints.MapControllers();
                 endpoints.MapControllerRoute(
                      name: "default",
                      pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-
-
-
-
-
-
-            
         }
     }
 }

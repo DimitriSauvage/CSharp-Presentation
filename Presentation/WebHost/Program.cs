@@ -21,6 +21,7 @@ namespace WebHost
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.UseUrls("http://0.0.0.0:5000", "http://localhost:5000");
                     webBuilder.UseStartup<Startup>();
                 });
     }

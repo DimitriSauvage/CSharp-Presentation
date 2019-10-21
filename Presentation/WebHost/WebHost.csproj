@@ -5,9 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Prensentation.DependancyInjection.Presentation\Presentation.DependancyInjection.Presentation.csproj" />
-    <ProjectReference Include="..\Presentation.DependancyInjection.Abstractions\Presentation.DependancyInjection.Abstractions.csproj" />
-    <ProjectReference Include="..\Presentation.DependancyInjection.Implementations\Presentation.DependancyInjection.Implementations.csproj" />
+    <ProjectReference Include="..\Presentation.DependancyInjection.Abstractions\Presentation.DependancyInjection.Application.Abstractions.csproj" />
+    <ProjectReference Include="..\Presentation.DependancyInjection.Implementations\Presentation.DependancyInjection.Application.Implementations.csproj" />
+    <ProjectReference Include="..\Presentation.DependancyInjection.Repository.Implementations\Presentation.DependancyInjection.Repository.Implementations.Db.csproj" />
   </ItemGroup>
 
 </Project>

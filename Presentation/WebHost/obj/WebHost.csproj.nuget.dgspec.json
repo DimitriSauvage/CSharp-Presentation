@@ -31,8 +31,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj"
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj"
               }
             }
           }
@@ -71,12 +71,12 @@
         }
       }
     },
-    "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj": {
+    "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj",
-        "projectName": "Presentation.DependancyInjection.Abstractions",
-        "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj",
+        "projectName": "Presentation.DependancyInjection.Application.Abstractions",
+        "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj",
         "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
@@ -130,12 +130,12 @@
         }
       }
     },
-    "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Implementations.csproj": {
+    "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Application.Implementations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Implementations.csproj",
-        "projectName": "Presentation.DependancyInjection.Implementations",
-        "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Implementations.csproj",
+        "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Application.Implementations.csproj",
+        "projectName": "Presentation.DependancyInjection.Application.Implementations",
+        "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Application.Implementations.csproj",
         "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\obj\\",
         "projectStyle": "PackageReference",
@@ -157,8 +157,206 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj"
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj"
+              },
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\Presentation.DependancyInjection.Model.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\Presentation.DependancyInjection.Model.csproj"
+              },
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Abstractions\\Presentation.DependancyInjection.Repository.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Abstractions\\Presentation.DependancyInjection.Repository.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\Presentation.DependancyInjection.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\Presentation.DependancyInjection.Model.csproj",
+        "projectName": "Presentation.DependancyInjection.Model",
+        "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\Presentation.DependancyInjection.Model.csproj",
+        "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Abstractions\\Presentation.DependancyInjection.Repository.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Abstractions\\Presentation.DependancyInjection.Repository.Abstractions.csproj",
+        "projectName": "Presentation.DependancyInjection.Repository.Abstractions",
+        "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Abstractions\\Presentation.DependancyInjection.Repository.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\Presentation.DependancyInjection.Model.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\Presentation.DependancyInjection.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Implementations\\Presentation.DependancyInjection.Repository.Implementations.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Implementations\\Presentation.DependancyInjection.Repository.Implementations.Db.csproj",
+        "projectName": "Presentation.DependancyInjection.Repository.Implementations.Db",
+        "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Implementations\\Presentation.DependancyInjection.Repository.Implementations.Db.csproj",
+        "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Implementations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\Presentation.DependancyInjection.Model.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Model\\Presentation.DependancyInjection.Model.csproj"
+              },
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Abstractions\\Presentation.DependancyInjection.Repository.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Abstractions\\Presentation.DependancyInjection.Repository.Abstractions.csproj"
               }
             }
           }
@@ -223,11 +421,14 @@
               "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Prensentation.DependancyInjection.Presentation\\Presentation.DependancyInjection.Presentation.csproj": {
                 "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Prensentation.DependancyInjection.Presentation\\Presentation.DependancyInjection.Presentation.csproj"
               },
-              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Abstractions.csproj"
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Abstractions\\Presentation.DependancyInjection.Application.Abstractions.csproj"
               },
-              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Implementations.csproj": {
-                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Implementations.csproj"
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Application.Implementations.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Implementations\\Presentation.DependancyInjection.Application.Implementations.csproj"
+              },
+              "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Implementations\\Presentation.DependancyInjection.Repository.Implementations.Db.csproj": {
+                "projectPath": "C:\\Users\\dimit\\OneDrive\\CSharp-Presentation\\Presentation\\Presentation.DependancyInjection.Repository.Implementations\\Presentation.DependancyInjection.Repository.Implementations.Db.csproj"
               }
             }
           }
@@ -240,6 +441,20 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
